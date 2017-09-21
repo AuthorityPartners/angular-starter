@@ -204,10 +204,15 @@ module.exports = function (options) {
        * See: https://gist.github.com/sokra/27b24881210b56bbaff7
        */
       new LoaderOptionsPlugin({
-        debug: true,
-        options: {
-
-        }
+        minimize: true,
+		debug: false,
+		options: {
+		  // Required
+		  context: helpers.root('client'),
+		  output: {
+			path: helpers.root('dist')
+		  }
+		}
       }),
 
       new HotModuleReplacementPlugin()
