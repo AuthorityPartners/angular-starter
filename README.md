@@ -47,6 +47,9 @@ This seed repo serves as an Angular starter for anyone looking to get up and run
 * Hot Module Replacement with Webpack and [@angularclass/hmr](https://github.com/angularclass/angular-hmr) and [@angularclass/hmr-loader](https://github.com/angularclass/angular-hmr-loader)
 * Angular 4 support via changing package.json and any future Angular versions
 
+### Changes
+* Added Bootstrap 4 with jQuery and scss.
+
 ### Quick start
 **Make sure you have Node version >= 6.0 and NPM >= 3**
 > Clone/Download the repo then edit `app.component.ts` inside [`/src/app/app.component.ts`](/src/app/app.component.ts)
